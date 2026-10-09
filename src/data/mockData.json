@@ -1,0 +1,135 @@
+{
+  "user": {
+    "personalDetails": {
+      "fullName": "Tales Admin",
+      "firstName": "Tales",
+      "lastName": "Admin"
+    },
+    "email": "tales@miratsinsights.com",
+    "role": "admin",
+    "organizationName": "Mirats Global Research",
+    "organizationId": "ORG-98214",
+    "phone": "+1 (555) 234-5678",
+    "country": "United States",
+    "credits": 14250.00,
+    "apiKey": "mq_live_89f02c4b82e11d094b8e21",
+    "secretKey": "mq_sec_99a8b7c6d5e4f3210987654321"
+  },
+  "surveys": [
+    {
+      "_id": "surv_001",
+      "survey_id": "MQ-84920",
+      "survey_name": "Consumer Electronics & Smart Home Tech Adoption 2026",
+      "category": "Consumer Tech",
+      "country": "United States",
+      "sample_size": 1500,
+      "responses": 1140,
+      "status": "Live",
+      "incidence_rate": "45%",
+      "loi": 12,
+      "cpi": "$2.80",
+      "created_at": "2026-09-28T10:30:00Z",
+      "type": "Quantitative"
+    },
+    {
+      "_id": "surv_002",
+      "survey_id": "MQ-84921",
+      "survey_name": "Global B2B Cloud Migration & Security Decision Makers",
+      "category": "Enterprise IT",
+      "country": "United Kingdom",
+      "sample_size": 600,
+      "responses": 600,
+      "status": "Completed",
+      "incidence_rate": "22%",
+      "loi": 18,
+      "cpi": "$8.50",
+      "created_at": "2026-10-01T14:15:00Z",
+      "type": "Quantitative"
+    }
+  ],
+  "surveyGroups": [
+    {
+      "_id": "grp_001",
+      "group_id": "GRP-104",
+      "group_name": "North America Tech & Enterprise Q4",
+      "surveys_count": 3,
+      "active_count": 2,
+      "country": "US & Canada",
+      "status": "Active",
+      "created_at": "2026-09-25"
+    },
+    {
+      "_id": "grp_002",
+      "group_id": "GRP-105",
+      "group_name": "European Healthcare Specialist Tracker",
+      "surveys_count": 2,
+      "active_count": 0,
+      "country": "UK, DE, FR",
+      "status": "Inactive",
+      "created_at": "2026-09-30"
+    }
+  ],
+  "invoices": [
+    {
+      "_id": "inv_101",
+      "invoice_id": "INV-MQ-2026-089",
+      "project_name": "Global B2B IT & Cloud Study",
+      "issue_date": "2026-10-01",
+      "due_date": "2026-10-31",
+      "amount": "$5,100.00",
+      "status": "Paid",
+      "payment_method": "Credit Card (Visa •••• 4242)"
+    },
+    {
+      "_id": "inv_102",
+      "invoice_id": "INV-MQ-2026-088",
+      "project_name": "Consumer Electronics Adoption",
+      "issue_date": "2026-09-28",
+      "due_date": "2026-10-28",
+      "amount": "$3,192.00",
+      "status": "Pending",
+      "payment_method": "Corporate Invoice Net 30"
+    }
+  ],
+  "questions": [
+    {
+      "_id": "q_01",
+      "category": "Demographics",
+      "name": "Standard Age Range",
+      "type": "Single Select",
+      "question_text": "What is your age range?",
+      "options": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+      "usage_count": 42
+    },
+    {
+      "_id": "q_02",
+      "category": "Employment & Industry",
+      "name": "Primary Employment Status",
+      "type": "Single Select",
+      "question_text": "Which of the following best describes your current employment status?",
+      "options": ["Employed Full-time", "Employed Part-time", "Self-employed / Freelance", "Student", "Retired", "Not currently employed"],
+      "usage_count": 36
+    }
+  ],
+  "recentActivities": [
+    {
+      "type": "complete",
+      "title": "New 25 Completes recorded",
+      "subtitle": "Consumer Electronics & Smart Home Tech",
+      "time": "8m ago",
+      "status": "Live"
+    },
+    {
+      "type": "survey_created",
+      "title": "Study completed successfully",
+      "subtitle": "Global B2B Cloud Migration",
+      "time": "2h ago",
+      "status": "Completed"
+    }
+  ],
+  "performanceTrends": {
+    "labels": ["May 2026", "Jun 2026", "Jul 2026", "Aug 2026", "Sep 2026", "Oct 2026"],
+    "completes": [1840, 2450, 3120, 2890, 4150, 5920],
+    "hits": [3200, 4100, 5600, 5100, 7200, 9850]
+  }
+}
